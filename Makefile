@@ -1,7 +1,7 @@
 # Copyright © 2018 VMware, Inc. All Rights Reserved.
 # SPDX-License-Identifier: BSD-2-Clause
 
-IMAGE            ?= vmware/kube-fluentd-operator
+IMAGE            ?= nhamlh/kube-fluentd-operator
 TAG              ?= latest
 TARGETARCH       ?= $(shell go env GOARCH)
 TARGETOS         ?= linux

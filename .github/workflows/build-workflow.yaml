@@ -28,7 +28,7 @@ jobs:
           make buildx-image TAG=v$GITHUB_SHA_SHORT
       - name: load-image
         run: |
-          kind load docker-image vmware/kube-fluentd-operator:v$GITHUB_SHA_SHORT
+          kind load docker-image nhamlh/kube-fluentd-operator:v$GITHUB_SHA_SHORT
       - name: install-log-router
         run: |
           cd charts
